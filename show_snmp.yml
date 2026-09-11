@@ -1,0 +1,16 @@
+---
+- name: Get Arista EOS Running Configuration
+  hosts: arista_switches
+  gather_facts: false
+  connection: ansible.netcommon.network_cli
+
+  tasks:
+    - name: Run show running-config command
+      arista.eos.eos_command:
+        commands: 
+          - show running | i snmp
+      register: running_config_output
+
+    - name: Display the running configuration
+      ansible.builtin.debug:
+        msg: "{{ running_config_output.stdout[0] }}"

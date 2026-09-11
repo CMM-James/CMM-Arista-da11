@@ -8,3 +8,8 @@ all:
             atladmin:
               hosts:
                 da11-a-mgt-sw-lf-103.net.rx.relayhealth.com #10.104.218.10
+              vars:
+              ansible_connection: ansible.netcommon.network_cli
+              ansible_network_os: arista.eos.eos
+              ansible_become: true
+              ansible_become_method: enable

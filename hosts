@@ -1,9 +1,10 @@
-ini[arista_switches]
-da11-a-mgt-sw-lf-103 ansible_host=10.104.218.10
-
-
-[arista_switches:vars]
-ansible_connection=ansible.netcommon.network_cli
-ansible_network_os=arista.eos.eos
-ansible_become=true
-ansible_become_method=enable
+---
+all:
+  children:
+    arista:
+      children:
+        atl:
+          children:
+            atladmin:
+              hosts:
+                da11-a-mgt-sw-lf-103.net.rx.relayhealth.com #10.104.218.10

@@ -1,6 +1,6 @@
 ---
 - name: Get Arista EOS Running Configuration
-  hosts: arista_switches
+  hosts: atladmin
   gather_facts: false
   connection: ansible.netcommon.network_cli
 

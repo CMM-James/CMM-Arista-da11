@@ -8,6 +8,28 @@ all:
             atladmin:
               hosts:
                 da11-a-mgt-sw-lf-103.net.rx.relayhealth.com #10.104.218.10
+                da11-a-mgt-sw-lf-101.net.rx.relayhealth.com	#10.104.218.8
+                da11-a-mgt-sw-lf-102.net.rx.relayhealth.com	#10.104.218.9
+                da11-a-mgt-sw-lf-105.net.rx.relayhealth.com	#10.104.218.12
+                da11-a-mgt-sw-lf-106.net.rx.relayhealth.com	#10.104.218.13
+                da11-a-mgt-sw-lf-107.net.rx.relayhealth.com	#10.104.218.14
+                da11-p-ent-sw-sp-1.net.rx.relayhealth.com	#10.104.218.26
+                da11-p-ent-sw-sp-2.net.rx.relayhealth.com	#10.104.218.27
+                da11-p-ent-sw-lf-105-1.net.rx.relayhealth.com	#10.104.218.50
+                da11-p-ent-sw-lf-105-2.net.rx.relayhealth.com	#10.104.218.51
+                da11-p-ent-sw-lf-106-1.net.rx.relayhealth.com	#10.104.218.52
+                da11-p-ent-sw-lf-106-2.net.rx.relayhealth.com	#10.104.218.53
+                da11-p-ent-sw-lf-107-1.net.rx.relayhealth.com	#10.104.218.54
+                da11-p-ent-sw-lf-107-2.net.rx.relayhealth.com	#10.104.218.55
+                da11-p-ent-sw-lf-107-3.net.rx.relayhealth.com	#10.104.218.56
+                da11-p-ent-sw-lf-107-4.net.rx.relayhealth.com	#10.104.218.57
+                da11-p-ent-sw-lf-san-106-1.net.rx.relayhealth.com	#10.104.218.59
+                da11-p-ent-sw-blf-1.net.rx.relayhealth.com	#10.104.218.91
+                da11-p-ent-sw-blf-2.net.rx.relayhealth.com	#10.104.218.92
+                vp-ent-sw-core-1.net.rx.relayhealth.com	#10.49.159.114
+                vp-ent-sw-core-2.net.rx.relayhealth.com	#10.49.159.118
+                da11-p-erx-sw-lf-112.net.rx.relayhealth.com	#10.104.218.133
+                 da11-p-erx-sw-lf-113.net.rx.relayhealth.com	#10.104.218.134
               vars:
               ansible_connection: ansible.netcommon.network_cli
               ansible_network_os: arista.eos.eos

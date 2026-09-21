@@ -29,7 +29,7 @@ all:
                 vp-ent-sw-core-1.net.rx.relayhealth.com	#10.49.159.114
                 vp-ent-sw-core-2.net.rx.relayhealth.com	#10.49.159.118
                 da11-p-erx-sw-lf-112.net.rx.relayhealth.com	#10.104.218.133
-                 da11-p-erx-sw-lf-113.net.rx.relayhealth.com	#10.104.218.134
+                da11-p-erx-sw-lf-113.net.rx.relayhealth.com	#10.104.218.134
               vars:
               ansible_connection: ansible.netcommon.network_cli
               ansible_network_os: arista.eos.eos
